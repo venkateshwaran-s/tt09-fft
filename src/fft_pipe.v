@@ -6,7 +6,7 @@
 
 `timescale 1ns/1ns
 
-module fft_rx2_8pt_pipe(
+module tt_um_venkat_fft_rx2_8pt_pipe(
                 clk,            // Clock
                 mode,           // Mode: 0-FFT, 1-IFFT
                 reset,          // Reset Operation
@@ -173,7 +173,7 @@ module fft_rx2_8pt_pipe(
   // Output after butterfly operation
   butterfly_pipe butterfly_pipe(.clk(clk), .reset(reset), .x0_r(x0_r), .x1_r(x1_r), .x2_r(x2_r), .x3_r(x3_r), .x4_r(x4_r), .x5_r(x5_r), .x6_r(x6_r), .x7_r(x7_r), .x0_i(x0_i), .x1_i(x1_i), .x2_i(x2_i), .x3_i(x3_i), .x4_i(x4_i), .x5_i(x5_i), .x6_i(x6_i), .x7_i(x7_i), .y0_r(y0_r1), .y1_r(y1_r1), .y2_r(y2_r1), .y3_r(y3_r1), .y4_r(y4_r1), .y5_r(y5_r1), .y6_r(y6_r1), .y7_r(y7_r1), .y0_i(y0_i1), .y1_i(y1_i1), .y2_i(y2_i1), .y3_i(y3_i1), .y4_i(y4_i1), .y5_i(y5_i1), .y6_i(y6_i1), .y7_i(y7_i1));
 
-endmodule: fft_rx2_8pt_pipe
+endmodule: tt_um_venkat_fft_rx2_8pt_pipe
 
 module butterfly_pipe(
                 clk,            // Clock
