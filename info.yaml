@@ -22,24 +22,27 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
-
+  ui[0]: "clk"
+  ui[1]: "mode"
+  ui[2]: "reset"
+  ui[3]: "xin_r0"
+  ui[4]: "xin_r1"
+  ui[5]: "xin_r2"
+  ui[6]: "xin_r3"
+  ui[7]: "xin_r4"
+  ui[8]: "xin_r5"
+  ui[9]: "xin_r6"
+  ui[10]: "xin_r7"
+  
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "y_i0"
+  uo[1]: "y_i1"
+  uo[2]: "y_i2"
+  uo[3]: "y_i3"
+  uo[4]: "y_i4"
+  uo[5]: "y_i5"
+  uo[6]: "y_i6"
+  uo[7]: "y_i7"
 
   # Bidirectional pins
   uio[0]: ""
